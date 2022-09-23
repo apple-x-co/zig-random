@@ -14,6 +14,7 @@ pub fn build(b: *std.build.Builder) void {
     const exe = b.addExecutable("zig-random", "src/main.zig");
     exe.setTarget(target);
     exe.setBuildMode(mode);
+    exe.addPackagePath("uuid6", "libs/uuid6-zig/src/Uuid.zig");
     exe.install();
 
     const run_cmd = exe.run();
