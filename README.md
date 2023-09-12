@@ -1,5 +1,17 @@
 # zig-random
 
+## Build
+
+```bash
+zig build -Doptimize=ReleaseFast
+```
+
+## Run
+
+```bash
+zig build run -- uuidv4
+```
+
 ### Random number
 
 ```
@@ -10,10 +22,4 @@
 
 ```
 ./zig-random uuidv4
-```
-
-### UUIDv6
-
-```
-./zig-random uuidv6
 ```

@@ -1,3 +1,0 @@
-[submodule "libs/uuid6-zig"]
-	path = libs/uuid6-zig
-	url = https://github.com/jdknezek/uuid6-zig

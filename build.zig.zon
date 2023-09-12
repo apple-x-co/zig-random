@@ -1,0 +1,23 @@
+// because zon file is really just a zig struct
+// comments are really done in the same way using 2 forward slashes
+.{
+    // the name of your project
+    .name = "zig-random",
+    // the version of your project
+    .version = "0.0.1",
+
+    // the actual packages you need as dependencies of your project
+    .dependencies = .{
+        // the name of the package
+        // .uuid6 = .{
+        //     // the url to the release of the module
+        //     .url = "https://github.com/jdknezek/uuid6-zig/archive/refs/heads/master.tar.gz",
+        //     .hash = "1220e802aa23a297a1e003210ab160f56e49348e7e8e696e1ab15a7c627b8fed2996",
+        // },
+        .uuid = .{
+            // the url to the release of the module
+            .url = "https://github.com/dmgk/zig-uuid/archive/refs/heads/master.tar.gz",
+            .hash = "1220964ebbbcf57f19a2b344f1d778d76429e39f42b8054e84fadcbf8d0c71728c93",
+        },
+    },
+}
